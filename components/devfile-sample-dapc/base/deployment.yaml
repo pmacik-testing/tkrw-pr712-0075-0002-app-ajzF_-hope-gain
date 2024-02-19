@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dapc
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0002-tenant/tkrw-pr712-0075-0002-app/devfile-sample-dapc@sha256:30b10d407175ed4142c52b9587dffd660348877ecd3994defb596ecca08f9e6c
         name: my-nodejs
         ports:
         - containerPort: 3001
